@@ -11,22 +11,22 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           "Mega Shop",
-          style:TextStyle(
-          fontFamily: "DMSans",
-          fontWeight: FontWeight.bold,
-          color: FColors.oceanBlue,
+          style: TextStyle(
+            fontFamily: "DMSans",
+            fontWeight: FontWeight.bold,
+            color: FColors.oceanBlue,
           ),
         ),
         centerTitle: true,
         actions: [
           Container(
-            padding: EdgeInsets.all(10),
+            padding: EdgeInsets.all(12),
             child: Icon(Iconsax.notification_bing_outline),
-            ),
-            Container(
+          ),
+          Container(
             padding: EdgeInsets.all(10),
             child: Icon(Icons.shopping_cart),
-            ),
+          ),
         ],
       ),
     );
